@@ -1,12 +1,16 @@
 import './App.css'
+import Footer from './assets/components/Footer/Footer'
+import Header from './assets/components/Header/Header'
 
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <div className='grid min-h-screen grid-rows-[auto_1fr_auto]'>
+        <Header />
+        <div></div>
+        <Footer />
+      </div>
     </>
   )
 }
