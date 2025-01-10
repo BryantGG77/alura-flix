@@ -1,7 +1,8 @@
 import './App.css'
-import Footer from './assets/components/Footer/Footer'
-import Header from './assets/components/Header/Header'
-import Banner from './assets/components/Banner/Banner'
+import Footer from './components/Footer/Footer'
+import Header from './components/Header/Header'
+import Banner from './components/Banner/Banner'
+import BackEnd from './components/BackEnd/BackEnd'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       {/* <section className='grid min-h-screen grid-rows-[auto_1fr_auto]'> */}
       <Header />
       <Banner />
+      <BackEnd />
       <Footer />
       {/* </section> */}
     </>
