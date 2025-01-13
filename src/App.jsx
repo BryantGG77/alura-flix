@@ -2,7 +2,7 @@ import './App.css'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Banner from './components/Banner/Banner'
-import BackEnd from './components/BackEnd/BackEnd'
+import ContenidoVideos from './components/ContenidoVideos/ContenidoVideos'
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
       {/* <section className='grid min-h-screen grid-rows-[auto_1fr_auto]'> */}
       <Header />
       <Banner />
-      <BackEnd />
+      <ContenidoVideos />
       <Footer />
       {/* </section> */}
     </>

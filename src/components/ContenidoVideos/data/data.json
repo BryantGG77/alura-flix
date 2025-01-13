@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "categoria": "Front end",
+        "color": "#6bd1ff",
+        "videos": [
+            {
+                "id": 1,
+                "url": "https://www.youtube.com/embed/PztCEdIJITY?si=J9oEaIm5PTDAZJFl"
+            },
+            {
+                "id": 2,
+                "url": "https://www.youtube.com/embed/GJfOSoaXk4s?si=Y0gwS7sAXzvnqCnt"
+            },
+            {
+                "id": 3,
+                "url": "https://www.youtube.com/embed/rpvrLaBQwgg?si=sHlX4fQaXsqOA6O5"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "categoria": "Back end",
+        "color": "#00c86f",
+        "videos": [
+            {
+                "id": 1,
+                "url": "https://www.youtube.com/embed/t-iqt1b2qqk?si=Pt5CBB-4bQtN5XGp"
+            },
+            {
+                "id": 2,
+                "url": "https://www.youtube.com/embed/cLLKVd5CNLc?si=WDPrlCWGsQiaifrO"
+            },
+            {
+                "id": 3,
+                "url": "https://www.youtube.com/embed/EoPvlE85XAQ?si=mIyXPuGLFbWRiXZE"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "categoria": "innovación y gestión",
+        "color": "#ffba05",
+        "videos": [
+            {
+                "id": 1,
+                "url": "https://www.youtube.com/embed/vhwspfvI52k?si=zSJhtPgmKZ6NeIEj"
+            },
+            {
+                "id": 2,
+                "url": "https://www.youtube.com/embed/YhR7Zp8NUzE?si=NGBhZa9hsRrWnSJn"
+            },
+            {
+                "id": 3,
+                "url": "https://www.youtube.com/embed/6N3OkLCfK-0?si=VUBWsP6NqNc4pci4"
+            }
+        ]
+    }
+]
