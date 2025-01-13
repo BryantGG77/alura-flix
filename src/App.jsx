@@ -3,19 +3,21 @@ import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Banner from './components/Banner/Banner'
 import ContenidoVideos from './components/ContenidoVideos/ContenidoVideos'
+import ModalZoom from './components/ModalZoom/ModalZoom'
+import { useState } from 'react'
+
 
 function App() {
-
+  const [fotoSeleccionada, setFotoSeleccionada] = useState(false);
 
 
   return (
     <>
-      {/* <section className='grid min-h-screen grid-rows-[auto_1fr_auto]'> */}
       <Header />
       <Banner />
-      <ContenidoVideos />
+      <ContenidoVideos setFotoSeleccionada={setFotoSeleccionada} />
       <Footer />
-      {/* </section> */}
+      <ModalZoom fotoSeleccionada={fotoSeleccionada} setFotoSeleccionada={setFotoSeleccionada} />
     </>
   )
 }

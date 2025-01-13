@@ -6,15 +6,27 @@
         "videos": [
             {
                 "id": 1,
-                "url": "https://www.youtube.com/embed/PztCEdIJITY?si=J9oEaIm5PTDAZJFl"
+                "url": "https://www.youtube.com/embed/PztCEdIJITY?si=J9oEaIm5PTDAZJFl",
+                "titulo": "Que significa pensar como programador",
+                "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+                "descripcion": "Que significa pensar como programador",
+                "categoria": "Front end"
             },
             {
                 "id": 2,
-                "url": "https://www.youtube.com/embed/GJfOSoaXk4s?si=Y0gwS7sAXzvnqCnt"
+                "url": "https://www.youtube.com/embed/GJfOSoaXk4s?si=Y0gwS7sAXzvnqCnt",
+                "titulo": "Que significa pensar como programador",
+                "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+                "descripcion": "Que significa pensar como programador",
+                "categoria": "Front end"
             },
             {
                 "id": 3,
-                "url": "https://www.youtube.com/embed/rpvrLaBQwgg?si=sHlX4fQaXsqOA6O5"
+                "url": "https://www.youtube.com/embed/rpvrLaBQwgg?si=sHlX4fQaXsqOA6O5",
+                "titulo": "Que significa pensar como programador",
+                "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+                "descripcion": "Que significa pensar como programador",
+                "categoria": "Front end"
             }
         ]
     },
@@ -25,15 +37,27 @@
         "videos": [
             {
                 "id": 1,
-                "url": "https://www.youtube.com/embed/t-iqt1b2qqk?si=Pt5CBB-4bQtN5XGp"
+                "url": "https://www.youtube.com/embed/t-iqt1b2qqk?si=Pt5CBB-4bQtN5XGp",
+                "titulo": "Que significa pensar como programador",
+                "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+                "descripcion": "Que significa pensar como programador",
+                "categoria": "Back end"
             },
             {
                 "id": 2,
-                "url": "https://www.youtube.com/embed/cLLKVd5CNLc?si=WDPrlCWGsQiaifrO"
+                "url": "https://www.youtube.com/embed/cLLKVd5CNLc?si=WDPrlCWGsQiaifrO",
+                "titulo": "Que significa pensar como programador",
+                "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+                "descripcion": "Que significa pensar como programador",
+                "categoria": "Back end"
             },
             {
                 "id": 3,
-                "url": "https://www.youtube.com/embed/EoPvlE85XAQ?si=mIyXPuGLFbWRiXZE"
+                "url": "https://www.youtube.com/embed/EoPvlE85XAQ?si=mIyXPuGLFbWRiXZE",
+                "titulo": "Que significa pensar como programador",
+                "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+                "descripcion": "Que significa pensar como programador",
+                "categoria": "Back end"
             }
         ]
     },
@@ -44,15 +68,27 @@
         "videos": [
             {
                 "id": 1,
-                "url": "https://www.youtube.com/embed/vhwspfvI52k?si=zSJhtPgmKZ6NeIEj"
+                "url": "https://www.youtube.com/embed/vhwspfvI52k?si=zSJhtPgmKZ6NeIEj",
+                "titulo": "Que significa pensar como programador",
+                "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+                "descripcion": "Que significa pensar como programador",
+                "categoria": "innovación y gestión"
             },
             {
                 "id": 2,
-                "url": "https://www.youtube.com/embed/YhR7Zp8NUzE?si=NGBhZa9hsRrWnSJn"
+                "url": "https://www.youtube.com/embed/YhR7Zp8NUzE?si=NGBhZa9hsRrWnSJn",
+                "titulo": "Que significa pensar como programador",
+                "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+                "descripcion": "Que significa pensar como programador",
+                "categoria": "innovación y gestión"
             },
             {
                 "id": 3,
-                "url": "https://www.youtube.com/embed/6N3OkLCfK-0?si=VUBWsP6NqNc4pci4"
+                "url": "https://www.youtube.com/embed/6N3OkLCfK-0?si=VUBWsP6NqNc4pci4",
+                "titulo": "Que significa pensar como programador",
+                "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+                "descripcion": "Que significa pensar como programador",
+                "categoria": "innovación y gestión"
             }
         ]
     }
