@@ -2,7 +2,7 @@ import Categoria from "../Categoria/Categoria";
 
 export const Banner = () => {
     return (
-        <section className="relative w-full h-[722px]">
+        <section className="relative w-full h-[722px] mt-4">
             <section className="absolute inset-0 -z-1">
                 <div className="w-full h-full bg-[url('/img/bg-banner.png')] bg-no-repeat bg-cover bg-center"></div>
                 <div className="absolute inset-0 bg-[#00254e] opacity-50"></div>
