@@ -12,7 +12,7 @@ export const ModalZoom = ({ fotoSeleccionada, setFotoSeleccionada }) => {
                     <dialog
                         open={fotoSeleccionada}
                         className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 
-                                   bg-[#03122f] shadow-lg m-0 z-20 w-[80%] py-[40px] rounded-2xl border-4 border-[#6BD1FF] text-white flex flex-col justify-center items-center md:py-[50px] lg:w-[55%]"
+                                   bg-[#03122f] shadow-lg m-0 z-20 w-[80%] pt-[40px] pb-[15px] rounded-2xl border-4 border-[#6BD1FF] text-white flex flex-col justify-center items-center md:py-[50px] lg:w-[55%]"
                     >
                         <div className="flex justify-center w-[90%] md:w-[60%] md:justify-start">
                             <h1 className="text-3xl uppercase font-black text-[#2271D1] md:text-4xl xl:text-6xl">Editar card:</h1>
@@ -55,7 +55,7 @@ export const ModalZoom = ({ fotoSeleccionada, setFotoSeleccionada }) => {
                             </div>
                             <div className="flex flex-col md:gap-[15px]">
                                 <label>Descripción</label>
-                                <textarea rows={3} type="text" placeholder="lorem ipsum dolor sit amet consectetur adipiscing elit" className="bg-transparent focus:outline-none rounded-xl border-2 border-[#2271d1] py-[16px] px-[12px]" />
+                                <textarea rows={2} type="text" placeholder="lorem ipsum dolor sit amet consectetur adipiscing elit" className="bg-transparent focus:outline-none rounded-xl border-2 border-[#2271d1] py-[16px] px-[12px]" />
                             </div>
                             <div className="flex flex-col items-center gap-[15px] md:flex-row md:justify-between">
                                 <ButtonHome title="Guardar" onClick={() => setFotoSeleccionada(false)} />
