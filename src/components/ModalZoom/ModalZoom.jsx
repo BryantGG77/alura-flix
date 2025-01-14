@@ -1,5 +1,4 @@
 import { MdOutlineCancel } from "react-icons/md";
-import ButtonHome from "../ButtonHome/ButtonHome";
 
 
 export const ModalZoom = ({ fotoSeleccionada, setFotoSeleccionada }) => {
@@ -20,7 +19,7 @@ export const ModalZoom = ({ fotoSeleccionada, setFotoSeleccionada }) => {
                         <form method="dialog" className="flex flex-col gap-[15px] font-extrabold text-xl w-[90%]  md:w-[60%]">
                             <div className="flex flex-col md:gap-[15px]">
                                 <label>Título</label>
-                                <input type="text" placeholder="¿Que es JavaSscript?" className="bg-transparent focus:outline-none rounded-xl border-2 border-[#2271d1] py-[16px] px-[12px]" />
+                                <input type="text" placeholder="¿Que es JavaSscript?" className="bg-transparent focus:outline-none rounded-xl border-2 border-[#2271d1] p-[5px] md:py-[16px] md:px-[12px]" />
                             </div>
                             <div className="flex flex-col md:gap-[15px]">
                                 <label htmlFor="categoria">Categoría</label>
@@ -28,7 +27,7 @@ export const ModalZoom = ({ fotoSeleccionada, setFotoSeleccionada }) => {
                                     name="categoria"
                                     id="categoria"
                                     defaultValue=""
-                                    className="bg-transparent focus:outline-none rounded-xl  border-2 border-[#2271d1] py-[16px] px-[12px]"
+                                    className="bg-transparent focus:outline-none rounded-xl  border-2 border-[#2271d1] p-[5px] md:py-[16px] md:px-[12px]"
                                     required
                                 >
                                     <option
@@ -47,19 +46,19 @@ export const ModalZoom = ({ fotoSeleccionada, setFotoSeleccionada }) => {
 
                             <div className="flex flex-col md:gap-[15px]">
                                 <label>Imagen</label>
-                                <input type="text" placeholder="https://www.google.com/url?sa=i&url=https%3A%2F%2Fapps..." className="bg-transparent focus:outline-none rounded-xl border-2 border-[#2271d1] py-[16px] px-[12px]" />
+                                <input type="text" placeholder="https://www.google.com/url?sa=i&url=https%3A%2F%2Fapps..." className="bg-transparent focus:outline-none rounded-xl border-2 border-[#2271d1] p-[5px] md:py-[16px] md:px-[12px]" />
                             </div>
                             <div className="flex flex-col md:gap-[15px]">
                                 <label>Video</label>
-                                <input type="text" placeholder="https://www.youtube.com/url?sa=i&url=https%3A%2F%2Fap.." className="bg-transparent focus:outline-none rounded-xl border-2 border-[#2271d1] py-[16px] px-[12px]" />
+                                <input type="text" placeholder="https://www.youtube.com/url?sa=i&url=https%3A%2F%2Fap.." className="bg-transparent focus:outline-none rounded-xl border-2 border-[#2271d1] p-[5px] md:py-[16px] md:px-[12px]" />
                             </div>
                             <div className="flex flex-col md:gap-[15px]">
                                 <label>Descripción</label>
-                                <textarea rows={2} type="text" placeholder="lorem ipsum dolor sit amet consectetur adipiscing elit" className="bg-transparent focus:outline-none rounded-xl border-2 border-[#2271d1] py-[16px] px-[12px]" />
+                                <textarea rows={2} type="text" placeholder="lorem ipsum dolor sit amet consectetur adipiscing elit" className="bg-transparent focus:outline-none rounded-xl border-2 border-[#2271d1] p-[5px] md:py-[16px] md:px-[12px]" />
                             </div>
                             <div className="flex flex-col items-center gap-[15px] md:flex-row md:justify-between">
-                                <ButtonHome title="Guardar" onClick={() => setFotoSeleccionada(false)} />
-                                <button className="cursor-pointer buttonHeader w-[180.13px] h-[54px] flex justify-center items-center border-2 border-white text-xl leading-6 font-black rounded-xl uppercase hover:border-[#2271D1] hover:bg-black hover:text-[#2271D1]" type="reset">Limpiar</button>
+                                <button className="cursor-pointer buttonHeader w-[180.13px] h-[34px] md:h-[54px] flex justify-center items-center border-2 border-white text-sm md:text-xl leading-6 font-black rounded-xl uppercase hover:border-[#2271D1] hover:bg-black hover:text-[#2271D1]" onClick={() => setFotoSeleccionada(false)}>Guardar</button>
+                                <button className="cursor-pointer buttonHeader w-[180.13px] h-[34px] md:h-[54px] flex justify-center items-center border-2 border-white text-sm md:text-xl leading-6 font-black rounded-xl uppercase hover:border-[#2271D1] hover:bg-black hover:text-[#2271D1]" type="reset">Limpiar</button>
                             </div>
                         </form>
                         <button
