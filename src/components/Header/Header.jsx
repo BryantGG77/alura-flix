@@ -5,7 +5,7 @@ const Header = () => {
             <img src="./img/logo.png" alt="Logo AluraFlix" />
             <nav className="flex flex-col gap-6 md:flex-row">
                 <ButtonHome title="Home" link="/" />
-                <ButtonHome title="nuevo video" link="/favoritos" />
+                <ButtonHome title="nuevo video" link="/nuevo-video" />
             </nav>
         </header>
     )

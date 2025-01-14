@@ -18,11 +18,11 @@ export const ModalZoom = ({ fotoSeleccionada, setFotoSeleccionada }) => {
                             <h1 className="text-3xl uppercase font-black text-[#2271D1] md:text-4xl xl:text-6xl">Editar card:</h1>
                         </div>
                         <form method="dialog" className="flex flex-col gap-[15px] font-extrabold text-xl w-[90%]  md:w-[60%]">
-                            <div className="flex flex-col gap-[15px]">
+                            <div className="flex flex-col md:gap-[15px]">
                                 <label>Título</label>
                                 <input type="text" placeholder="¿Que es JavaSscript?" className="bg-transparent focus:outline-none rounded-xl border-2 border-[#2271d1] py-[16px] px-[12px]" />
                             </div>
-                            <div className="flex flex-col gap-[15px]">
+                            <div className="flex flex-col md:gap-[15px]">
                                 <label htmlFor="categoria">Categoría</label>
                                 <select
                                     name="categoria"
@@ -45,15 +45,15 @@ export const ModalZoom = ({ fotoSeleccionada, setFotoSeleccionada }) => {
                                 </select>
                             </div>
 
-                            <div className="flex flex-col gap-[15px]">
+                            <div className="flex flex-col md:gap-[15px]">
                                 <label>Imagen</label>
                                 <input type="text" placeholder="https://www.google.com/url?sa=i&url=https%3A%2F%2Fapps..." className="bg-transparent focus:outline-none rounded-xl border-2 border-[#2271d1] py-[16px] px-[12px]" />
                             </div>
-                            <div className="flex flex-col gap-[15px]">
+                            <div className="flex flex-col md:gap-[15px]">
                                 <label>Video</label>
                                 <input type="text" placeholder="https://www.youtube.com/url?sa=i&url=https%3A%2F%2Fap.." className="bg-transparent focus:outline-none rounded-xl border-2 border-[#2271d1] py-[16px] px-[12px]" />
                             </div>
-                            <div className="flex flex-col gap-[15px]">
+                            <div className="flex flex-col md:gap-[15px]">
                                 <label>Descripción</label>
                                 <textarea rows={3} type="text" placeholder="lorem ipsum dolor sit amet consectetur adipiscing elit" className="bg-transparent focus:outline-none rounded-xl border-2 border-[#2271d1] py-[16px] px-[12px]" />
                             </div>
