@@ -3,7 +3,7 @@ const NuevoVideo = () => {
     return (
         <section className="flex flex-col w-full justify-center items-center gap-10 px-[20px] py-10 md:py-[70px] md:px-[134px]">
             <section className="flex flex-col justify-center items-center">
-                <h1 className="text-[60px] font-black uppercase">Nuevo video</h1>
+                <h1 className="text-[36px] font-black uppercase md:text-[60px]">Nuevo video</h1>
                 <p className="text-[20px] uppercase">Complete el formulario para crear una nueva tarjeta de video</p>
             </section>
             <section className="flex flex-col w-full gap-[60px]">
