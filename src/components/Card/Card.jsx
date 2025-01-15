@@ -1,5 +1,10 @@
+import { useContext } from "react"
+import { GlobalContext } from "../../context/GlobalContext";
 
-const Card = ({ url, setFotoSeleccionada }) => {
+const Card = ({ url }) => {
+
+    const { setFotoSeleccionada } = useContext(GlobalContext);
+
     return (
         <section className=" w-[282px] h-[252.85px] md:w-[430px] md:h-[319.85px] bg-black rounded-2xl border-4 border-[#6BD1FF] overflow-hidden shrink-0">
             <div>

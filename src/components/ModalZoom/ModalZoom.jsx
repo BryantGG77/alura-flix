@@ -1,7 +1,12 @@
+import { useContext } from "react";
 import { MdOutlineCancel } from "react-icons/md";
+import { GlobalContext } from "../../context/GlobalContext";
 
 
-export const ModalZoom = ({ fotoSeleccionada, setFotoSeleccionada }) => {
+export const ModalZoom = () => {
+
+    const { fotoSeleccionada, setFotoSeleccionada } = useContext(GlobalContext);
+
     return (
         <>
             {fotoSeleccionada && (

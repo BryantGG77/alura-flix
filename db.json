@@ -1,0 +1,133 @@
+{
+    "videos": [
+        {
+            "id": 1,
+            "categoria": "Front end",
+            "video": "https://www.youtube.com/embed/rpvrLaBQwgg?si=uKMUvJThC2oI23_u",
+            "titulo": "Equipo Front End",
+            "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+            "descripcion": "¿Estás empezando tus estudios de Programación? ¿Te interesa todo lo que es la creación de Páginas Web Desarrollo de Softwares? ¿O estás pensando en cambiar de carrera y entrar a la maravillosa area de tecnología?"
+        },
+        {
+            "id": 2,
+            "categoria": "Front end",
+            "video": "https://www.youtube.com/embed/PztCEdIJITY?si=J9oEaIm5PTDAZJFl",
+            "titulo": "Cuándo usar let, var y const?",
+            "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+            "descripcion": "¿A veces cuando estás programando sientes dificuldades en saber en qué momento utilizar let, var o const para declarar una variable? En este video te sacamos estas dudas, además de explicarte lo que es escopo global y local en JavaScript."
+        },
+        {
+            "id": 3,
+            "categoria": "Front end",
+            "video": "https://www.youtube.com/embed/GJfOSoaXk4s?si=Y0gwS7sAXzvnqCnt",
+            "titulo": "Que es JavaScript?",
+            "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+            "descripcion": "JavaScript: ¿qué es y cómo se hizo este lenguaje que genera muchas discusiones y debates entre la gente del área de desarrollo? Genesys y Gabriela nos hablan exactamente de esto en este Alura Tips."
+        },
+        {
+            "id": 4,
+            "categoria": "Front end",
+            "video": "https://www.youtube.com/embed/UNeKzI2WHgQ?si=j0IgnebPPkw9v3HK",
+            "titulo": "Frameworks de Front End - Edición especial",
+            "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+            "descripcion": "¿Quieres conocer sobre los frameworks más utilizados en el mercado hoy en día? En este video nuestro instructor de Front End nos explicarás cuáles son los frameworks de Front más conocidos y las diferencias entre ellos."
+        },
+        {
+            "id": 5,
+            "categoria": "Front end",
+            "video": "https://www.youtube.com/embed/xxYOWp0UVCY?si=vm0CYdVNufmrPkIy",
+            "titulo": "La importancia de UX para Front End",
+            "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+            "descripcion": "¿Sabías que un buen diseño de UX (User Experience) es esencial para el éxito de cualquier proyecto de Front End? En este video, nuestra instructora Barbara nos explica la conexión entre UX y el desarrollo Front End, y por qué es crucial que los desarrolladores entiendan y apliquen principios de UX en su trabajo diario."
+        },
+        {
+            "id": 6,
+            "categoria": "Back end",
+            "video": "https://www.youtube.com/embed/t-iqt1b2qqk?si=Pt5CBB-4bQtN5XGp",
+            "titulo": "Spring Framework. ¿Qué es ?",
+            "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+            "descripcion": "¿Busca un framework  para utilizar en sus proyectos? ¿Conoce Spring Framework? Spring es el framework más usado de Java. Nos ofrece herramientas que nos permiten crear proyectos más avanzados, con mejores prácticas y en menor tiempo. También posee una gran comunidad, lo que nos brinda muchísima documentación y ayuda."
+        },
+        {
+            "id": 7,
+            "categoria": "Back end",
+            "video": "https://www.youtube.com/embed/cLLKVd5CNLc?si=WDPrlCWGsQiaifrO",
+            "titulo": "¿Qué es SQL y NoSQL?",
+            "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+            "descripcion": "¿Cuáles son las diferencias entre una estructura de datos relacional (SQL) y una no relacional (NoSQL) y cuáles son las principales ventajas de cada una? Álvaro Camacho lo explica en este vídeo."
+        },
+        {
+            "id": 8,
+            "categoria": "Back end",
+            "video": "https://www.youtube.com/embed/EoPvlE85XAQ?si=mIyXPuGLFbWRiXZE",
+            "titulo": "Simplificando tu código en Java: Conoce los enum",
+            "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+            "descripcion": "¿Escribir muchas variables del tipo constantes en Java te parece un proceso tedioso y que genera muchas líneas de código? En este Alura+ la instructora Génesys Rondón nos enseña a simplificar esta tarea usando un tipo de dato especial llamado enum."
+        },
+        {
+            "id": 9,
+            "categoria": "Back end",
+            "video": "https://www.youtube.com/embed/Z024LSCMqFk?si=M_EwZYFQDrjuQJ2_",
+            "titulo": "Explorando el poder del Back-End en el Desarrollo Web",
+            "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+            "descripcion": "Explorando el poder del Back-End en el Desarrollo Web"
+        },
+        {
+            "id": 10,
+            "categoria": "Innovación y gestión",
+            "video": "https://www.youtube.com/embed/vhwspfvI52k?si=Gn_Mvvwh6VFVxaOh",
+            "titulo": "¿Qué son las Soft Skills?",
+            "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+            "descripcion": "¿Qué son las Softskills y por qué es tan importante desarrollarlas para posicionarse en el mercado laboral? En este video de Alura Tips, Pri Stuani nos habla de las habilidades más buscadas por las empresas en sus profesionales y cómo las Soft Skills te ayudan en el día a día."
+        },
+        {
+            "id": 11,
+            "categoria": "Innovación y gestión",
+            "video": "https://www.youtube.com/embed/YhR7Zp8NUzE?si=NGBhZa9hsRrWnSJn",
+            "titulo": "7 Soft Skills más deseadas por las empresas",
+            "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+            "descripcion": "Seguro que ya escuchaste hablar sobre las Soft Skills, pero ¿sabes cuáles son las 7 más buscadas por las empresas? Quédate en este video con nosotros que vamos a explicarte la importancia de estas habilidades y porque son tan requeridas en el mercado laboral."
+        },
+        {
+            "id": 12,
+            "categoria": "Innovación y gestión",
+            "video": "https://www.youtube.com/embed/6N3OkLCfK-0?si=VUBWsP6NqNc4pci4",
+            "titulo": "¿Qué son las metodologias ágiles?",
+            "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+            "descripcion": "En este video nuestra invitada, Andyara, nos explicará que són las muy conocidas hoy en día metodologias ágiles y nos comentará un poco sobre como aplicarlas y cuáles son los beneficios de utilizarlas en su equipo o empresa."
+        },
+        {
+            "id": 13,
+            "categoria": "Innovación y gestión",
+            "video": "https://www.youtube.com/embed/LAK-RduBJUs?si=i9scjKtQKLoIWoVC",
+            "titulo": "Como desarrollar tu Marca Personal",
+            "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+            "descripcion": "En este video vamos a ayudarte a entender qué es y cuál es la importancia de tener una Marca Personal bien desarrollada."
+        },
+        {
+            "id": 14,
+            "categoria": "Innovación y gestión",
+            "video": "https://www.youtube.com/embed/PtPyM0ZgshA?si=FXq3WUruGr0lktfH",
+            "titulo": "La importancia de la Visión de Negocio para las personas desarrolladoras",
+            "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/maxresdefault.jpg",
+            "descripcion": "En este video, nuestra instructora Ellen Pimentel comenta por qué una persona programadora debe desarrollar la Visión de Negocio y la importancia de esta habilidad para su carrera."
+        }
+    ],
+    "categorias": [
+        {
+            "id": 1,
+            "categoria": "Front end",
+            "color": "#6bd1ff"
+        },
+        {
+            "id": 2,
+            "categoria": "Back end",
+            "color": "#00c86f"
+        },
+        {
+            "id": 3,
+            "categoria": "Innovación y gestión",
+            "color": "#ffba05"
+        }
+    ]
+}
