@@ -10,6 +10,7 @@ const AppRoutes = () => {
                 <Route path="/" element={<PaginaBase />}>
                     <Route index element={<Inicio />} />
                     <Route path="nuevo-video" element={<NuevoVideo />} />
+                    <Route path="*" element={<h1>404</h1>} />
                 </Route>
             </Routes>
         </BrowserRouter>

@@ -20,7 +20,7 @@ export const Banner = () => {
 
                 <div className="relative flex justify-center items-center rounded-2xl border-4 border-[#6BD1FF] borde1 ">
                     {/* <img src="./img/player.png" alt="Video" /> */}
-                    <iframe className="rounded-2xl border-0 md:w-[560px] md:h-[315px]" width="280" height="200" src="https://www.youtube.com/embed/ov7vA5HFe6w?si=XKvIuZWUEtExr5x2" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe className="rounded-2xl border-0 md:w-[560px] md:h-[315px]" width="280" height="200" src="https://www.youtube.com/embed/ov7vA5HFe6w?si=XKvIuZWUEtExr5x2" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
 
 
