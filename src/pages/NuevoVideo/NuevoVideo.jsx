@@ -56,7 +56,7 @@ const NuevoVideo = () => {
                                 >
                                     Selecciona una categoría
                                 </option>
-                                <option className="bg-[#03122f]" value="Front end">Front end</option>
+                                <option value="Front end">Front end</option>
                                 <option className="bg-[#03122f]" value="Back end">Back end</option>
                                 <option className="bg-[#03122f]" value="Innovación y gestión">Innovación y gestión</option>
                             </select>

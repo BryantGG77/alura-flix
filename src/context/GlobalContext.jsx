@@ -7,6 +7,8 @@ const GlobalContextProvider = ({ children }) => {
     const [fotoSeleccionada, setFotoSeleccionada] = useState(false);
     const [categorias, setCategorias] = useState([]);
     const [videos, setVideos] = useState([]);
+    const [videoSeleccionado, setVideoSeleccionado] = useState(null);
+
 
 
     // Traer informacion de videos y categorias
@@ -56,6 +58,10 @@ const GlobalContextProvider = ({ children }) => {
         }
     };
 
+    const accederVideo = (id) => {
+        return videos.find(video => video.id === id);
+    };
+
     const borrarVideo = async (id) => {
         try {
             await fetch(`https://6748ba9c5801f5153591fb97.mockapi.io/videos/${id}`, {
@@ -71,7 +77,7 @@ const GlobalContextProvider = ({ children }) => {
 
 
     return (
-        <GlobalContext.Provider value={{ fotoSeleccionada, setFotoSeleccionada, categorias, setCategorias, videos, setVideos, agregarVideo, actualizarVideo, borrarVideo }}>
+        <GlobalContext.Provider value={{ fotoSeleccionada, setFotoSeleccionada, categorias, setCategorias, videos, setVideos, agregarVideo, actualizarVideo, accederVideo, borrarVideo, videoSeleccionado, setVideoSeleccionado }}>
             {children}
         </GlobalContext.Provider>
     )

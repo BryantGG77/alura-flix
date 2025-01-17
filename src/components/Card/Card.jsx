@@ -1,10 +1,9 @@
 import { useContext } from "react"
 import { GlobalContext } from "../../context/GlobalContext";
-import { useParams } from "react-router-dom";
 
 const Card = ({ url, id }) => {
 
-    const { setFotoSeleccionada, borrarVideo } = useContext(GlobalContext);
+    const { setFotoSeleccionada, borrarVideo, accederVideo, setVideoSeleccionado } = useContext(GlobalContext);
 
     return (
         <section className=" w-[282px] h-[252.85px] md:w-[430px] md:h-[319.85px] bg-black rounded-2xl border-4 border-[#6BD1FF] overflow-hidden shrink-0">
@@ -17,7 +16,10 @@ const Card = ({ url, id }) => {
                     Borrar
                 </button>
 
-                <button className="flex font-black text-base uppercase gap-5 items-center justify-center" onClick={() => setFotoSeleccionada(true)}>
+                <button className="flex font-black text-base uppercase gap-5 items-center justify-center" onClick={() => {
+                    setFotoSeleccionada(true);
+                    setVideoSeleccionado(accederVideo(id));
+                }}>
                     <img src="./img/edit.png" alt="Edit icon" />
                     Editar
                 </button>
