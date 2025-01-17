@@ -1,7 +1,8 @@
 import { useContext } from "react"
 import { GlobalContext } from "../../context/GlobalContext";
+import { useParams } from "react-router-dom";
 
-const Card = ({ url }) => {
+const Card = ({ url, id }) => {
 
     const { setFotoSeleccionada, borrarVideo } = useContext(GlobalContext);
 
@@ -11,7 +12,7 @@ const Card = ({ url }) => {
                 <iframe className="md:w-[422px] md:h-[260.85px]" width="280" height="200" src={url} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
             <div className="flex justify-around items-center w-full h-">
-                <button className="flex font-black text-base uppercase gap-5 items-center" onClick={() => borrarVideo(url)}>
+                <button className="flex font-black text-base uppercase gap-5 items-center" onClick={() => borrarVideo(id)}>
                     <img src="./img/delete.png" alt="Delete icon" />
                     Borrar
                 </button>

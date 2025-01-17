@@ -8,7 +8,7 @@ const SeccionVideos = ({ data = [], categoria, color }) => {
             <div className="flex gap-[30px] overflow-x-auto">
                 {data.length > 0 ? (
                     data.map(video => (
-                        <Card key={video.id} url={video.video} />
+                        <Card key={video.id} url={video.video} id={video.id} />
                     ))
                 ) : (
                     <p>No hay videos disponibles</p>
