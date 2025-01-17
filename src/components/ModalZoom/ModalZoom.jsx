@@ -22,8 +22,8 @@ export const ModalZoom = () => {
             actualizarVideo(videoSeleccionado.id, videoEditado);
             setFotoSeleccionada(false);
         }
-        setTitulo("");
         setCategoria("");
+        setTitulo("");
         setVideo("");
         setImagen("");
         setDescripcion("");
